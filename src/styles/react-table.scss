@@ -1,0 +1,29 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: auto;
+  margin:0;
+  padding:0;
+  box-shadow: 0px 4.62128px 18.4851px rgba(53, 55, 81, 0.06);
+}
+
+table td, table th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  color: #2E3011;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EEEEE9;
+  color: #34623F;
+  font-weight: 500;
+  font-size: 14px;
+}

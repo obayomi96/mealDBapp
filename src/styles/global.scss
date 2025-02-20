@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./react-table";
+
+body {
+  margin: 0;
+  font-family: "General Sans", "font-sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #273143;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination > .selected {
+  display: none;
+}
+
+.pagination > .disabled {
+  cursor: not-allowed !important;
+  color: #CECFC5 !important;
+  opacity: 0.5;
+}
+
+.pagination > li:first-child {
+  margin-right: 25px;
+}
+ 
+ .MuiFormControl-root {
+  width: 100% !important;
+ }
