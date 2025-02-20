@@ -168,11 +168,11 @@ function CustomTable<T extends object>({
             Previous
           </button>
           <span className="text-[#667185] gap-x-6">
-            <span className="h-[2.25rem] w-auto rounded-full bg-[#E9F5FB] border border-[#2597D5] p-[8px] px-[0.75rem] mx-8">
+            <span className="h-[2.25rem] w-auto rounded-full bg-[#E9F5FB] border border-[#2597D5] p-[8px] px-[0.75rem] mx-3 md:mx-8">
               {table.getState().pagination.pageIndex + 1}
             </span>{" "}
             {"... "}
-            <span className="mx-8">{table.getPageCount()}</span>
+            <span className="mx-3 md:mx-8">{table.getPageCount()}</span>
           </span>
           <button
             className="font-semibold w-auto flex items-center"
