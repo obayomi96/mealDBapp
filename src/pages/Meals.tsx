@@ -112,13 +112,8 @@ function Meals() {
         </div>
       </div>
 
-      <div className="w-full flex justify-end px-6 md:px-12 my-5">
-        <Button
-          onClick={() => setIsNewMealModalOpen(true)}
-          label=" Add new meal"
-          loading={isLoading}
-          additionalClassname={`text-[grey] bg-[#eee] w-[8rem]`}
-        />
+      <div className="w-auto flex justify-end text-[grey] px-6 md:px-12 my-5 hover:opacity-75 cursor-pointer font-semibold">
+        Add new meal
       </div>
 
       <div className="w-full flex items-center justify-evenly flex-wrap gap-5 border-t border-t-[#ddd] py-5 px-6">
