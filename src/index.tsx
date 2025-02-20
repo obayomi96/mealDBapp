@@ -4,7 +4,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 
 import "./styles/global.scss";
-import "react-phone-number-input/style.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import QueryProviders from "./HOC/QueryProvider";
