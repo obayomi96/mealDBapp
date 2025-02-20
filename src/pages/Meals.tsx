@@ -112,7 +112,7 @@ function Meals() {
         </div>
       </div>
 
-      <div className="w-auto flex justify-end text-[grey] px-6 md:px-12 my-5 hover:opacity-75 cursor-pointer font-semibold">
+      <div className="w-auto flex justify-end text-[grey] px-6 md:px-12 my-5 hover:opacity-75 cursor-pointer font-medium">
         Add new meal
       </div>
 
