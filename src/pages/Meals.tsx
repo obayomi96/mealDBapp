@@ -116,7 +116,7 @@ function Meals() {
         Add new meal
       </div>
 
-      <div className="w-full flex items-center justify-evenly flex-wrap gap-5 border-t border-t-[#ddd] py-5 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full border-t border-t-[#ddd] py-5 px-6">
         {mealsList?.length ? (
           mealsList?.map((item: any) => (
             <div
