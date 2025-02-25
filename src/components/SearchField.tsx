@@ -1,5 +1,3 @@
-"use client";
-
 import { InputHTMLAttributes, ReactNode, forwardRef, useState } from "react";
 import clsx from "clsx";
 import { CloseOutlined } from "@mui/icons-material";

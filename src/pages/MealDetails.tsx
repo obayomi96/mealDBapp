@@ -41,7 +41,7 @@ const MealDetails = () => {
   const { selectedMeal, similarMeals } = useSelector(
     (state: RootState) => state.meals
   );
-  const [ingredientsList, setIngredientsList] = useState<any>();
+  const [ingredientsList, setIngredientsList] = useState<string[]>();
 
   useEffect(() => {
     if (id) {

@@ -46,7 +46,8 @@ export const fetchSingleMealDetails = createAsyncThunk(
   "meals/fetchSingleMealDetails",
   async (id: string) => {
     const response = await getSingleMealDetails(id);
-    return response[0]; // Assuming the API returns an array
+    if (response === "Invalid ID") return "Meal not found";
+    return response;
   }
 );
 
